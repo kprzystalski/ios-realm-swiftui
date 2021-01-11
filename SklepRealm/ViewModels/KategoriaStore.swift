@@ -10,7 +10,7 @@ import RealmSwift
 
 final class KategoriaStore: ObservableObject {
     
-    @Published var realm: Realm
+    var realm: Realm
     private var kategoriaResult: Results<KategoriaModel>
     
     init(realm: Realm) {
